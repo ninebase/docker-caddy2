@@ -1,4 +1,4 @@
-# caddy2-custom
+# docker-caddy2
 
 Caddy2 docker image with the following plugins:
 
@@ -10,4 +10,4 @@ Caddy2 docker image with the following plugins:
 
 To pull the image:
 
-`docker pull ghcr.io/nklmilojevic/caddy2-custom:0.0.4`
+`docker pull ghcr.io/telett/caddy2:latest`

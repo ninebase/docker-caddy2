@@ -5,7 +5,7 @@ on:
     tags:
       - v*
 env:
-  IMAGE_NAME: caddy2-custom
+  IMAGE_NAME: caddy2
 
 jobs:
   push:
@@ -13,7 +13,8 @@ jobs:
     if: github.event_name == 'push'
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Check Out Repo
+        uses: actions/checkout@v2
 
       - name: Build image
         run: docker build . --file Dockerfile --tag $IMAGE_NAME
