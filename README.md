@@ -2,6 +2,7 @@
 
 Caddy2 docker image with the following plugins:
 
+- [format-encoder](https://github.com/caddyserver/format-encoder) - Log encoder module for custom log formats
 - [Cloudflare DNS](https://github.com/caddy-dns/cloudflare) - for getting certificates via dns-01
 - [Redis](https://github.com/gamalan/caddy-tlsredis) - store your certificates in Redis instead of files
 - [RealIP](https://github.com/kirsch33/realip) - forward real ip to Caddy (useful if you are behind Cloudflare)
