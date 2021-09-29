@@ -9,7 +9,7 @@ RUN xcaddy build \
   --with github.com/greenpau/caddy-auth-jwt@latest
 
 
-FROM caddy:2.4.3-alpine
+FROM caddy:2.4.5-alpine
 
 COPY --from=builder /usr/bin/caddy /usr/bin/caddy
 
