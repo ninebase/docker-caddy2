@@ -1,4 +1,4 @@
-FROM caddy:2.4.3-builder-alpine AS builder
+FROM caddy:2.4.5-builder-alpine AS builder
 
 RUN xcaddy build \
   --with github.com/caddyserver/format-encoder \
