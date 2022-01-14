@@ -1,4 +1,4 @@
-FROM caddy:2.4.5-builder-alpine AS builder
+FROM caddy:2.4.6-builder-alpine AS builder
 
 RUN xcaddy build \
   --with github.com/caddyserver/format-encoder \
@@ -9,7 +9,7 @@ RUN xcaddy build \
   --with github.com/greenpau/caddy-auth-jwt@latest
 
 
-FROM caddy:2.4.5-alpine
+FROM caddy:2.4.6-alpine
 
 COPY --from=builder /usr/bin/caddy /usr/bin/caddy
 
