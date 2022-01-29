@@ -15,7 +15,7 @@ DNS challenge plugins:
 - [route53](https://github.com/caddy-dns/route53)
 - [duckdns](https://github.com/caddy-dns/duckdns)
 - [namecheap](https://github.com/caddy-dns/namecheap)
-- [alydns](https://github.com/caddy-dns/alydns)
+- [alidns](https://github.com/caddy-dns/alidns)
 - [dnspod](https://github.com/caddy-dns/dnspod)
 
 To pull the image:

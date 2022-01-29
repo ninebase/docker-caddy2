@@ -11,7 +11,7 @@ RUN xcaddy build \
   --with github.com/caddy-dns/route53 \
   --with github.com/caddy-dns/duckdns \
   --with github.com/caddy-dns/namecheap \
-  --with github.com/caddy-dns/alydns \
+  --with github.com/caddy-dns/alidns \
   --with github.com/caddy-dns/dnspod
 
 
