@@ -20,4 +20,4 @@ DNS challenge plugins:
 
 To pull the image:
 
-`docker pull ghcr.io/telett/caddy2:latest`
+`docker pull ghcr.io/ninebase/caddy2:latest`
