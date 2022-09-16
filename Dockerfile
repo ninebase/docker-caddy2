@@ -1,4 +1,4 @@
-FROM caddy:2.5.2-builder-alpine AS builder
+FROM caddy:2.6.0-beta.3-builder AS builder
 
 RUN xcaddy build \
   --with github.com/caddyserver/transform-encoder \
@@ -15,7 +15,7 @@ RUN xcaddy build \
   --with github.com/caddy-dns/dnspod
 
 
-FROM caddy:2.5.2-alpine
+FROM caddy:2.6.0-beta.3
 
 COPY --from=builder /usr/bin/caddy /usr/bin/caddy
 
